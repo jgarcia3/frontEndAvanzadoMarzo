@@ -1,0 +1,90 @@
+<% include header.html %>
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto">
+
+            <p>
+              <%= __("Welcome to") %>
+                <%= title %>
+            </p>
+            <table>
+              <tr>
+                <th>
+                  <%= __("Producto") %>
+                </th>
+                <th>
+                  <%= __("Foto") %>
+                </th>
+                <th>
+                  <%= __("Precio") %>
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  <%= __("Teléfono") %>
+                </td>
+                <td>
+                  <img src="http://www.freepngimg.com/thumb/smartphone/1-smartphone-png-image-thumb.png" alt=<%=__( "Teléfono") %>
+                </td>
+                <td>150€</td>
+              </tr>
+              <tr>
+                <td>
+                  <%= __("Gafas") %>
+                </td>
+                <td>
+                  <img src="http://www.opticacapitol.com/lib/productos/articulos/proimg_664_2b7e89c54a754d0e35c1a24ae73bded1.png" alt=<%=__(
+                    "Gafas") %>
+                </td>
+                <td>120€</td>
+              </tr>
+              <tr>
+                <td>
+                  <%= __("Ordenador") %>
+                </td>
+                <td>
+                  <img src="https://vignette.wikia.nocookie.net/residentevilfanonenespanol/images/8/89/PC.png/revision/latest?cb=20160704045122&path-prefix=es"
+                    alt=<%=__( "Ordenador") %>
+                </td>
+                <td>500€</td>
+              </tr>
+              <tr>
+                <td>
+                  <%= __("Cascos") %>
+                </td>
+                <td>
+                  <img src=< !--
+                    "https://arsonyb2c.vteximg.com.br/arquivos/ids/165822-1000-1000/4e94440e29c08034b5b535bfd1ad073a.png?v=635713637359100000" alt=<%=__( "Cascos") %> -->
+                </td>
+                <td>50€</td>
+              </tr>
+            </table>
+
+            <form action="/sendemail" method="POST">
+              <button class="mail" type="submit">
+                <%= __("Send email") %>
+              </button>
+            </form>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+              <input type="file" name="imagen">
+              <button type="submit">
+                <%= __("Send file") %>
+              </button>
+            </form>
+
+            </p>
+            </p>
+            <%= __('(C) 2018 by yo mismo',1) %>
+
+              </p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <% include footer.html %>

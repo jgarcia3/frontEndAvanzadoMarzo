@@ -1,0 +1,28 @@
+{
+	"TEXT": "This is a text",
+	"Welcome to": "Welcome to",
+	"HOME": {
+		"INJECTION": "HOME.INJECTION"
+	},
+	"(C) 2018 by yo mismo": "(C) 2018 by my self",
+	"Hola, he conseguido inyectar codigo": "Hola, he conseguido inyectar codigo",
+	"Hola": "Hellow",
+	"This is an amazing app!": "This is an amazing app!",
+	"Login": "Login",
+	"Please login to access": "Please login to access",
+	"Send email": "Send email",
+	"Send file": "Send file",
+	"Producto": "PRODUCT",
+	"Foto": "PICTURE",
+	"Precio": "PRICE",
+	"HELLO": "HELLO",
+	"NAME_AND_AGE": "NAME_AND_AGE",
+	"MOUSE": {
+		"one": "MOUSE",
+		"other": "MOUSE"
+	},
+	"Teléfono": "Smartphone",
+	"Gafas": "Glasess",
+	"Ordenador": "Computer",
+	"Cascos": "Earphones"
+}

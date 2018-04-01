@@ -1,0 +1,25 @@
+{
+	"TEXT": "Esto es un texto",
+	"Welcome to": "Bienvenido a",
+	"(C) 2018 by yo mismo": "(C) 2018 por yo mismo",
+	"Hola, he conseguido inyectar codigo": "Hola, he conseguido inyectar codigo",
+	"Hola": "Hola",
+	"This is an amazing app!": "Es una app increible",
+	"Login": "Acceso",
+	"Please login to access": "Por favor, logueate para acceder",
+	"Send email": "Enviar correo",
+	"Send file": "Enviar archivo",
+	"Producto": "PRODUCTO",
+	"Foto": "FOTO",
+	"Precio": "PRECIO",
+	"HELLO": "HELLO",
+	"NAME_AND_AGE": "NAME_AND_AGE",
+	"MOUSE": {
+		"one": "MOUSE",
+		"other": "MOUSE"
+	},
+	"Teléfono": "Teléfono",
+	"Gafas": "Gafas",
+	"Ordenador": "Ordenador",
+	"Cascos": "Cascos"
+}
