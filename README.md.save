@@ -1,4 +1,5 @@
-# Arrancar la base de datos (recordatorio)
+
+./bin/mongod --dbpath ./data/db --directoryperdb	w# Arrancar la base de datos (recordatorio)
 
 ./bin/mongod --dbpath ./data/db --directoryperdb
 

@@ -5,11 +5,15 @@ const sessionAuth = require("../lib/sessionAuth");
 const Usuario = require("../models/Usuario");
 const Producto = require("../models/Producto");
 
+
 // cargamos librería de validaciones
 const { query, validationResult } = require('express-validator/check');
 
 //cargamos objeto de upload
 const upload = require('../lib/uploadConfig');
+
+//cargamos thumbnail
+const jimp = require('../lib/thumbnailService');
 
 //router.use();
 
@@ -47,7 +51,10 @@ router.post("/sendemail", async (req, res, next) => {
 });
 
 router.post('/upload', upload.single('imagen'), (req, res, next) => {
-  console.log('upload:', req.file);
+  const file_path = req.file.path;
+  const file_name = req.file.originalname;
+  jimp(file_path,file_name);
+  console.log('upload: subido');
   res.redirect('/');
 })
 

@@ -17,8 +17,6 @@ const conn = require('./lib/connectMongoose');
 require('./models/Producto');
 const Usuario = require('./models/Usuario');
 
-
-
 var app = express();
 
 
